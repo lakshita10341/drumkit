@@ -1,0 +1,57 @@
+html{
+    font-size:1rem;
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/11/23/35/musical-background-2842924_1280.jpg');
+    background-size: cover;
+
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+  font-size: 4rem;
+  padding-top: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align:center;
+  height: 15vh;
+  color: rgba(255, 255, 255, 0.897);
+  font-weight: 500;
+
+}
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85vh;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    /* flex :1; */
+  }
+  .key{
+    border : 0.5rem black solid;
+   border-radius: 10%;
+    color : white;
+    margin :1rem;
+    padding: 0.5rem;
+    width:8%;
+    transition: all .07s ease;
+    background: rgba(0,0,0,0.3);
+  }
+  kbd{
+    display:block;
+    font-size: 2rem;
+  }
+  .playing{
+    transform : scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 0.8rem rgb(247, 247, 69);
+  
+  }
+  .sound{
+    font-weight: 300;
+    color: aliceblue;
+  }
+
+
+  
